@@ -25,7 +25,6 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-./**/node_modules/**
 MANIFEST
 
 # PyInstaller
@@ -128,4 +127,9 @@ bin
 obj
 appsettings.json
 local.settings.json
+
+# Azurite artifacts
+__blobstorage__
+__queuestorage__
+__azurite_db*__.json
 .python_packages

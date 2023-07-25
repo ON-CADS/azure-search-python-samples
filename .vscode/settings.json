@@ -1,9 +1,11 @@
 {
-    "azureFunctions.projectSubpath": "search-website-functions-v4/api",
-    "azureFunctions.deploySubpath": "search-website-functions-v4/api",
+    "azureFunctions.deploySubpath": ".",
     "azureFunctions.scmDoBuildDuringDeployment": true,
     "azureFunctions.pythonVenv": ".venv",
     "azureFunctions.projectLanguage": "Python",
-    "azureFunctions.projectRuntime": "~4",
-    "debug.internalConsoleOptions": "neverOpen"
+    "azureFunctions.projectRuntime": "~3",
+    "debug.internalConsoleOptions": "neverOpen",
+    "staticWebApps.appSubpath": "search-website",
+    "staticWebApps.apiSubpath": "search-website/api",
+    "staticWebApps.outputSubpath": "build"
 }
